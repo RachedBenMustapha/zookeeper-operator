@@ -7,15 +7,12 @@ require (
 	github.com/go-logr/logr v0.4.0
 	github.com/onsi/ginkgo v1.16.4
 	github.com/onsi/gomega v1.14.0
-	github.com/operator-framework/operator-lib v0.7.0
-	github.com/operator-framework/operator-sdk v0.19.4
+	github.com/operator-framework/operator-sdk v0.8.2
 	github.com/pkg/errors v0.9.1
 	github.com/samuel/go-zookeeper v0.0.0-20201211165307-7117e9ea2414
 	github.com/sirupsen/logrus v1.8.1
-	k8s.io/api v0.22.2
-	k8s.io/apimachinery v0.22.2
-	k8s.io/client-go v12.0.0+incompatible
-	sigs.k8s.io/controller-runtime v0.10.2
+	k8s.io/api v0.19.0-alpha.1
+	k8s.io/apimachinery v0.19.0-alpha.1
 )
 
 require (
@@ -35,7 +32,7 @@ require (
 	github.com/containerd/ttrpc v1.0.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/docker/docker v20.10.2+incompatible // indirect
-	github.com/evanphx/json-patch v4.9.0+incompatible // indirect
+	github.com/evanphx/json-patch v4.11.0+incompatible // indirect
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
 	github.com/go-logr/zapr v0.1.1 // indirect
 	github.com/gobuffalo/envy v1.7.1 // indirect
@@ -46,9 +43,8 @@ require (
 	github.com/google/go-cmp v0.5.6 // indirect
 	github.com/google/gofuzz v1.1.0 // indirect
 	github.com/google/uuid v1.1.5 // indirect
-	github.com/googleapis/gnostic v0.5.5 // indirect
+	github.com/googleapis/gnostic v0.3.1 // indirect
 	github.com/gorilla/mux v1.8.0 // indirect
-	github.com/hashicorp/golang-lru v0.5.4 // indirect
 	github.com/imdario/mergo v0.3.12 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/joho/godotenv v1.3.0 // indirect
@@ -60,8 +56,6 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/nxadm/tail v1.4.8 // indirect
 	github.com/opencontainers/image-spec v1.0.2 // indirect
-	github.com/operator-framework/api v0.10.7 // indirect
-	github.com/operator-framework/operator-registry v1.13.9 // indirect
 	github.com/pborman/uuid v1.2.1 // indirect
 	github.com/prometheus/client_golang v1.11.0 // indirect
 	github.com/prometheus/client_model v0.2.0 // indirect
@@ -93,9 +87,7 @@ require (
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
-	k8s.io/apiextensions-apiserver v0.22.2 // indirect
 	k8s.io/klog/v2 v2.9.0 // indirect
-	k8s.io/kube-openapi v0.0.0-20211110013926-83f114cd0513 // indirect
 	k8s.io/utils v0.0.0-20210930125809-cb0fa318a74b // indirect
 	sigs.k8s.io/kubebuilder v1.0.9-0.20200618125005-36aa113dbe99 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.1.2 // indirect
@@ -105,17 +97,13 @@ require (
 replace (
 	github.com/go-logr/zapr => github.com/go-logr/zapr v0.4.0
 
-	k8s.io/api => k8s.io/api v0.20.13
-
 	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.20.13
-
-	k8s.io/apimachinery => k8s.io/apimachinery v0.20.14-rc.0
 
 	k8s.io/apiserver => k8s.io/apiserver v0.20.13
 
 	k8s.io/cli-runtime => k8s.io/cli-runtime v0.20.13
 
-	k8s.io/client-go => k8s.io/client-go v0.20.13
+	k8s.io/client-go => k8s.io/client-go v0.22.3
 
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.20.13
 
